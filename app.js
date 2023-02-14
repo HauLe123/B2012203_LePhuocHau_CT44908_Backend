@@ -11,7 +11,7 @@ app.use("/api/contacts/", contactRouter);
 
 app.get("/", (req, res) => {
     res.json({
-        message: "Welcome to contact book application!"
+        message: "Welcome to contact book application"
     })
 });
 
